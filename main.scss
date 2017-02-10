@@ -1,0 +1,12 @@
+@import "_header";
+@import "_footer";
+
+a:-webkit-any-link {
+    color: -webkit-link;
+    text-decoration: none;
+    cursor: auto;
+    }
+
+a:hover{
+	color:red;
+}
