@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <title>Login Page</title>
+  <link rel="stylesheet" type="text/css" href="login.css">
+  <script type="text/javascript" src="login.js"></script>
+
+  </head>
+
+  <body>
+
+
+
+  <header>
+     <div class = "parent1">
+     	<div class = "left_primary_nav">
+     		<ul class = " items">
+     			<li><img src = "appdirect_logo.png"  alt = "appdirect logo"></li>
+     			<!-- <li class="dropdown">MyApps</li> -->
+                  <li class="dropdown">
+     			  <button onclick="myFunction()" class="dropbtn"> MyApps </button>
+                  <div id="myDropdown" class="dropdown-content">
+                  <a href="#home">Slack</a>
+                  <a href="#about">Google Apps</a>
+                  <a href="#contact">Jira</a>
+                 </div>
+                 </li>
+
+
+     			<li> Marketplace </li>
+     		</ul>
+        </div>
+        <div class = "right_primary_nav">
+     		<ul class = " items">
+     			<li>Account</li>
+     			<li>Mehakpreet Kaur</li>
+     			
+     		</ul>
+        </div>
+    </div>
+</header>
+
+
+<div class="registration_form">
+  <div class="left_div">
+  <form name="form"   method="post">
+   <p><b>Registration Page</b></p>
+      <label>First name:<span>*</span><br></label>
+      <input id="name" type = "text" name = "firstname" required><br>
+
+      <label>Last name:<br></label>
+      <input type = "text" name = "lastname"><br>
+
+      <label>Address (P):<span>*</span><br></label>
+      <input style="margin-bottom: 0px;" type = "text" name = "paddress" required><br>
+
+      <input type="checkbox" name="copy" value="copy" onclick="FillAddress(this.form)"><br>
+
+      <label>Address (C):<span>*</span><br></label>
+      <input type = "text" name = "caddress" required><br>
+
+      <label>Email:<span>*</span><br></label>
+      <input id="email" type = "text" placeholder = "eg. abc@gmail.com" name="email" oncopy="return false" onpaste="return false" required><br>
+
+      <label>	Phone No:<span>*</span><br></label>
+      <input type = "number"  name="phone" required><br>
+
+      <label>Password:<span>*</span><br></label>
+      <input type = "password" placeholder = "Enter Password" name="pswd1" oncopy="return false" onpaste="return false" required><br>
+
+      <label>Confirm Password:<span>*</span><br></label>
+      <input type = "password" placeholder = "Confirm Password" name="pswd2" oncopy="return false" onpaste="return false" required><br>
+
+    
+      <input type="reset">
+      <button id= "register" type="button" value="Register" onclick="validate_form();">Register</button>
+      <!-- <button id= "submit"   type="button" value="submit" onclick="addlist()">submit</button> -->
+  </form>
+
+
+ <!--  <script>
+  $('#submit').click(function(){
+    $('#list').append("<br><li> $('#name).value </li>");
+  });
+  </script> -->
+
+
+</div>
+
+
+ <div class="empty"></div> 
+
+
+   <div class="right_div">
+      <p><b>Dashboard</b></p>
+    <ul id="list">
+       
+    </ul>
+   </div>
+</div>
+
+
+
+
+<footer>
+    <div class="parent2">
+       <ul class="left_bottom_items">
+           <li> <img src = "appdirect_footer.png"  alt = "appdirect logo"> </li>
+           <li>Powered by Appdirect @ 2009-2017</li>
+       </ul>
+
+       <ul class="right_bottom_items">
+            <li>  
+              <select class= "dropdown" >
+              <option>English(United States)</option>
+              <option>Spanish</option>
+              <option>Chinese</option>
+              <option>French</option>
+              </select></li>
+           <li>Help Center</li>
+           <li>Privacy Policy</li>
+           <li>Terms and Conditions</li>
+           <li>Contact</li>
+        </ul>
+
+  </div>
+</footer>
+</body>
+</html>

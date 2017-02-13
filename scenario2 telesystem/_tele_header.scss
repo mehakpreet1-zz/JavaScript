@@ -1,0 +1,147 @@
+body {
+    display: block;
+    margin: 0px;
+    font-family: "Arial";
+    font-size: small;
+}
+
+$std-colorb: #175ea9;
+$std-colorg:  #8BC34A;
+// $std-bordercolor: #rgba(128, 128, 128, 0.29);
+li{
+     list-style-type:none;
+     }
+.upper_div{
+  display:flex;
+  height: 35px;
+  // background-image:url(teleblue.jpg);
+  
+  background-color: $std-colorb;
+  &_left_list{
+  	display: flex;
+  	margin-left: 100px;
+  	
+     .one,.three{
+      color:white;
+     }
+     .two,.four{
+     	padding-left:5px;
+     }
+    .three{
+     	padding-left: 20px;
+     }
+     .two,.four{
+     	color: $std-colorg;
+     }
+  }
+  &_right_list{
+     display: flex;
+     margin-left:500px;
+  	margin-right: 100px;
+  	
+    .five,.six{
+    	color: $std-colorg ;
+    }
+    .six,.seven{
+    	padding-left:20px;
+    }
+    .seven{
+      color:white;
+    }
+
+  }
+}
+.middle_div{
+  display:flex;
+  height: 70px;
+  border-bottom: solid rgba(128, 128, 128, 0.29);;
+  border-width: thin;
+  
+  &_left_list{
+  	display: flex;
+  	margin-left: 100px;
+  	img{
+  		height: 55px;
+        width: 270px;
+  	}
+  	.mp{
+       padding-top:20px;
+       color: $std-colorb;
+       padding-left: 60px;
+    font-size: medium;
+  	}
+
+  }
+  &_right_list{
+  	display: flex;
+  	
+  	margin-left:470px;
+  	margin-right: 180px;
+  	color: $std-colorb;
+  	font-size: initial;
+  	margin-top: 0px;
+  	margin-bottom: 0px;
+  	// .login{
+   //  width: 100px;
+  	// }
+  	// .signup{
+
+  	// }
+  	flex-direction: row;
+    justify-content:flex-end;
+    width:50%;
+            .button{
+                width:90px;
+                font-size:medium;
+                color: #175ea9 ;
+                height: 70px;
+                background-color: rgba(158, 158, 158, 0.15);
+                border-color: rgba(255, 255, 255, 0.12);
+  }
+  .button:hover{
+  	background-color: rgba(139, 195, 74, 0.9);
+  	color: white;
+  }
+
+}
+}
+.lower_div{
+     display: flex;
+     border-bottom: solid rgba(128, 128, 128, 0.29);
+     border-width: thin;
+     height: 35px;
+     color:grey;
+     
+     &_left_list{
+       display: flex;
+       margin-left: 105px;
+       .fa{
+       	color: $std-colorb;
+       	text-decoration: underline;
+
+         
+       }
+       .aa{
+        padding-left:40px;
+       }
+     }
+     &_right_list{
+     	display: flex;
+     	margin-left:495px;
+  	    margin-right: 100px;
+  	    
+     }
+}
+
+.middle_body{
+	 height:370px;
+}
+
+
+
+
+
+
+
+
+

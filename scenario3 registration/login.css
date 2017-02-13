@@ -1,0 +1,183 @@
+header {
+  background-color: rgba(0, 0, 0, 0.77); }
+  header .parent1 {
+    margin-left: 120px;
+    margin-right: 150px;
+    display: flex;
+    justify-content: flex-start;
+    height: 60px; }
+    header .parent1 ul {
+      display: flex; }
+      header .parent1 ul li {
+        color: grey;
+        padding-left: 40px;
+        list-style-type: none; }
+    header .parent1 .left_primary_nav {
+      width: 50%;
+      display: flex;
+      justify-content: flex-start; }
+      header .parent1 .left_primary_nav .left {
+        display: flex; }
+      header .parent1 .left_primary_nav .dropbtn {
+        background-color: rgba(0, 0, 0, 0.04);
+        color: grey;
+        font-size: 16px;
+        border: none;
+        cursor: pointer; }
+      header .parent1 .left_primary_nav .dropbtn:hover, header .parent1 .left_primary_nav .dropbtn:focus {
+        background-color: black; }
+      header .parent1 .left_primary_nav .dropbtn {
+        padding-top: 0px; }
+      header .parent1 .left_primary_nav .dropdown {
+        position: relative;
+        display: inline-block; }
+      header .parent1 .left_primary_nav .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #f9f9f9;
+        min-width: 160px;
+        overflow: auto;
+        box-shadow: black;
+        z-index: 1; }
+      header .parent1 .left_primary_nav .dropdown-content a {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block; }
+      header .parent1 .left_primary_nav .dropdown a:hover {
+        background-color: #f1f1f1; }
+      header .parent1 .left_primary_nav .show {
+        display: block; }
+    header .parent1 .right_primary_nav {
+      width: 50%;
+      display: flex;
+      justify-content: flex-end;
+      margin-right: 10px; }
+
+.registration_form {
+  height: 718px; }
+
+body {
+  display: block;
+  margin: 0px;
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  font-family: "Arial"; }
+
+.registration_form {
+  margin-left: 200px;
+  margin-right: 150px;
+  display: flex;
+  margin-top: 4px; }
+  .registration_form span {
+    color: red; }
+  .registration_form p {
+    padding-left: 100px;
+    font-size: x-large;
+    font-family: "Times New Roman"; }
+  .registration_form .left_div {
+    border-radius: 10px;
+    background-color: rgba(128, 128, 128, 0.25);
+    width: 45%;
+    height: 710px;
+    padding-left: 150px;
+    padding-right: 30px; }
+    .registration_form .left_div p {
+      padding-left: 100px; }
+    .registration_form .left_div .permanent {
+      margin-bottom: 0px; }
+    .registration_form .left_div input[type=text], .registration_form .left_div input[type=password], .registration_form .left_div input[type=number], .registration_form .left_div select {
+      width: 50%;
+      padding: 8.5px 40px;
+      margin: 8px 0;
+      display: inline-block;
+      border: 1px solid rgba(204, 204, 204, 0.92);
+      border-radius: 4px;
+      font-size: small; }
+    .registration_form .left_div input[type=checkbox] {
+      font-size: x-small;
+      width: 20px;
+      height: 20px;
+      cursor: pointer; }
+    .registration_form .left_div button[type=button] {
+      width: 150px;
+      background-color: #4CAF50;
+      color: white;
+      padding: 14px 20px;
+      margin: 8px 0;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      margin: 10px; }
+    .registration_form .left_div input[type=reset] {
+      width: 150px;
+      border-radius: 4px;
+      cursor: pointer;
+      padding: 14px 20px;
+      margin-left: 20px;
+      margin: 8px 0; }
+  .registration_form .empty {
+    height: 670px;
+    width: 25px;
+    background-color: white; }
+  .registration_form .right_div {
+    width: 40%;
+    height: 710px;
+    background-color: rgba(128, 128, 128, 0.24);
+    border-radius: 10px; }
+    .registration_form .right_div p {
+      padding-left: 120px; }
+    .registration_form .right_div ul {
+      padding-left: 70px;
+      padding-right: 80px;
+      margin-top: 50px;
+      overflow: auto;
+      height: 550px; }
+      .registration_form .right_div ul li {
+        list-style-type: none;
+        height: 35px;
+        width: 250px;
+        font-size: 15px;
+        background-color: white;
+        border-radius: 5px;
+        border-style: outset;
+        display: flex;
+        align-items: center;
+        justify-content: center; }
+
+footer img {
+  height: 15px;
+  width: 15px; }
+footer .parent2 {
+  height: 45px;
+  display: flex;
+  font-size: small;
+  border-top: solid grey;
+  border-width: thin;
+  margin-left: 130px;
+  margin-right: 130px; }
+  footer .parent2 ul {
+    display: flex; }
+    footer .parent2 ul li {
+      color: grey;
+      list-style-type: none; }
+  footer .parent2 .left_bottom_items {
+    width: 45%; }
+    footer .parent2 .left_bottom_items img {
+      height: 15px;
+      width: 15px;
+      padding-right: 20px; }
+  footer .parent2 .right_bottom_items {
+    margin-right: 50px;
+    padding-left: 20px;
+    width: 55%; }
+    footer .parent2 .right_bottom_items li {
+      padding-left: 20px; }
+    footer .parent2 .right_bottom_items .dropdown {
+      border-color: #f9f8f8;
+      border-style: hidden;
+      color: grey; }
+
+/*# sourceMappingURL=login.css.map */
