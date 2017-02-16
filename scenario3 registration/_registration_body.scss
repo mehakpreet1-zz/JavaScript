@@ -1,0 +1,115 @@
+.registration_form{
+        margin-left: 200px;
+		margin-right: 150px;
+		display: flex;
+        margin-top: 4px;
+span{
+	color:red;
+}
+p{
+       	padding-left: 100px;
+        font-size: x-large;
+       font-family: "Times New Roman";
+       }
+	.left_div
+	{
+	   border-radius: 10px;
+       background-color: rgba(128, 128, 128, 0.25);
+       width: 45%;
+       height: 710px;
+       padding-left:150px;
+       padding-right:30px;
+       
+       p{
+       	padding-left: 100px;
+       }
+       .permanent{
+       	margin-bottom: 0px;
+       }
+        input[type=text], input[type=password],input[type=number],select {
+       	
+              width: 50%;
+              padding: 8.5px 40px;
+              margin: 8px 0;
+              display: inline-block;
+              border: 1px solid rgba(204, 204, 204, 0.92);
+              border-radius: 4px;
+              font-size: small;
+
+              // box-sizing: border-box;
+             }
+               //   input[type=text]:focus {
+               //    background-color: rgba(128, 128, 128, 0.78);
+               // }
+             input[type=checkbox]{
+             	font-size: x-small;
+             	width: 20px; 
+                height: 20px; 
+                cursor: pointer;
+  
+
+  
+
+             }
+             button[type=button] {
+              width: 150px; 
+              background-color: #4CAF50;
+              color: white;
+              padding: 14px 20px;
+              margin: 8px 0;
+              border: none;
+              border-radius: 4px;
+              cursor: pointer;
+              margin: 10px;
+
+
+             }
+             input[type=reset] {
+              
+               width: 150px; 
+              border-radius: 4px;
+              cursor: pointer;
+              padding: 14px 20px;
+              margin-left: 20px;
+               margin: 8px 0; 
+              
+          }
+
+	}
+	.empty{
+		height: 670px;
+		width: 25px;
+		background-color: white;
+	}
+	.right_div{
+		width: 40%;
+		height: 710px;
+         background-color: rgba(128, 128, 128, 0.24);
+        border-radius: 10px;
+
+        p{
+       	padding-left: 120px;
+       }
+       ul {
+		    	padding-left: 70px;
+                padding-right: 80px;
+                margin-top: 50px;
+                overflow:auto;
+                height: 550px;
+    
+		    	li{
+		    		list-style-type:none;
+		    		height: 35px;
+                    width: 250px;
+                    font-size: 15px;
+		    		background-color:white;
+		    		border-radius: 5px;
+		    		border-style: outset;
+		    		
+		    		display: flex;
+                    align-items: center;
+                    justify-content: center;
+		    	}
+		    }
+	}
+}
